@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Введення в CSS</title>
+    <!-- Підключення зовнішнього CSS файлу -->
+    <link rel="stylesheet" href="Ex3styles.css">
+    
+    <!-- Вбудований CSS -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="main-title">Вивчення CSS</h1>
+        <p class="intro">Це вступний курс по CSS стилям.</p>
+        
+        <h2 class="section-title">Кольори</h2>
+        <p class="color-example">Текст різними кольорами</p>
+        <p class="background-example">Текст з фоновим кольором</p>
+        
+        <h2 class="section-title">Розміри та відступи</h2>
+        <div class="box">Цей блок має спеціальні розміри</div>
+        
+        <!-- Інлайн стилі -->
+        <p style="color: red; font-weight: bold;">
+            Цей текст має інлайн стилі
+        </p>
+        
+        <div class="highlight">Виділений блок</div>
+    </div>
+</body>
+</html>
